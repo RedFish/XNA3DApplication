@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>back.png</Source>
+      <Name>back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\back.xnb</Output>
+      <Time>2014-04-11T20:36:57+01:00</Time>
+    </Item>
+    <Item>
+      <Source>front.png</Source>
+      <Name>front</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\front.xnb</Output>
+      <Time>2014-04-11T20:36:57+01:00</Time>
+    </Item>
+    <Item>
+      <Source>ground.png</Source>
+      <Name>ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\ground.xnb</Output>
+      <Time>2014-04-11T20:36:57+01:00</Time>
+    </Item>
+    <Item>
+      <Source>left.png</Source>
+      <Name>left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\left.xnb</Output>
+      <Time>2014-04-11T20:36:57+01:00</Time>
+    </Item>
+    <Item>
+      <Source>right.png</Source>
+      <Name>right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\right.xnb</Output>
+      <Time>2014-04-11T20:36:57+01:00</Time>
+    </Item>
+    <Item>
+      <Source>sky.png</Source>
+      <Name>sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\sky.xnb</Output>
+      <Time>2014-04-11T20:36:57+01:00</Time>
+    </Item>
+    <Item>
+      <Source>twd_ak47.dds</Source>
+      <Name>twd_ak47</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\twd_ak47.xnb</Output>
+      <Time>2014-04-13T19:41:20+01:00</Time>
+    </Item>
+    <Item>
+      <Source>ak-47.x</Source>
+      <Name>ak-47</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\ak-47.xnb</Output>
+      <Time>2014-04-13T19:41:19+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\ak-47_0.xml</Key>
+        <Value>2014-04-13T19:41:23+01:00</Value>
+      </Dependency>
+      <Request>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\twd_ak47_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>ak-47.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\ak-47_0.xml</Output>
+      <Time>2014-04-13T19:41:19+01:00</Time>
+    </Item>
+    <Item>
+      <Source>twd_ak47.dds</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\twd_ak47_0.xnb</Output>
+      <Time>2014-04-13T19:41:20+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont.spritefont</Source>
+      <Name>SpriteFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\SpriteFont.xnb</Output>
+      <Time>2014-04-28T16:09:35+01:00</Time>
+    </Item>
+    <Item>
+      <Source>dark_back.png</Source>
+      <Name>dark_back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\dark_back.xnb</Output>
+      <Time>2014-04-28T17:21:39+01:00</Time>
+    </Item>
+    <Item>
+      <Source>dark_front.png</Source>
+      <Name>dark_front</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\dark_front.xnb</Output>
+      <Time>2014-04-28T17:21:39+01:00</Time>
+    </Item>
+    <Item>
+      <Source>dark_ground.png</Source>
+      <Name>dark_ground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\dark_ground.xnb</Output>
+      <Time>2014-04-28T17:21:39+01:00</Time>
+    </Item>
+    <Item>
+      <Source>dark_left.png</Source>
+      <Name>dark_left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\dark_left.xnb</Output>
+      <Time>2014-04-28T17:21:39+01:00</Time>
+    </Item>
+    <Item>
+      <Source>dark_right.png</Source>
+      <Name>dark_right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\dark_right.xnb</Output>
+      <Time>2014-04-28T17:21:39+01:00</Time>
+    </Item>
+    <Item>
+      <Source>dark_sky.png</Source>
+      <Name>dark_sky</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\dark_sky.xnb</Output>
+      <Time>2014-04-28T17:21:39+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gun-gunshot-01.wav</Source>
+      <Name>gun-gunshot-01</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\gun-gunshot-01.xnb</Output>
+      <Time>2014-04-29T00:59:31+01:00</Time>
+    </Item>
+    <Item>
+      <Source>explosion.png</Source>
+      <Name>explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\explosion.xnb</Output>
+      <Time>2014-04-29T01:21:55+01:00</Time>
+    </Item>
+    <Item>
+      <Source>heart.png</Source>
+      <Name>heart</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\heart.xnb</Output>
+      <Time>2014-04-29T09:35:08+01:00</Time>
+    </Item>
+    <Item>
+      <Source>zombie.x</Source>
+      <Name>zombie</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\zombie.xnb</Output>
+      <Time>2014-04-29T11:39:27+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\zombie_0.xml</Key>
+        <Value>2014-04-29T11:39:30+01:00</Value>
+      </Dependency>
+      <Request>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\WasterDiffuse_0.xnb</Request>
+      <Request>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\Knife_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>zombie.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\zombie_0.xml</Output>
+      <Time>2014-04-29T11:39:27+01:00</Time>
+    </Item>
+    <Item>
+      <Source>WasterDiffuse.jpg</Source>
+      <Name>WasterDiffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\WasterDiffuse.xnb</Output>
+      <Time>2014-04-29T11:40:39+01:00</Time>
+    </Item>
+    <Item>
+      <Source>WasterDiffuse.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\WasterDiffuse_0.xnb</Output>
+      <Time>2014-04-29T11:40:39+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Knife.jpg</Source>
+      <Name>Knife</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\Knife.xnb</Output>
+      <Time>2014-04-29T11:40:49+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Knife.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\Knife_0.xnb</Output>
+      <Time>2014-04-29T11:40:49+01:00</Time>
+    </Item>
+    <Item>
+      <Source>nuimlogo.png</Source>
+      <Name>nuimlogo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\nuimlogo.xnb</Output>
+      <Time>2014-04-29T21:03:40+01:00</Time>
+    </Item>
+    <Item>
+      <Source>nuimsign.x</Source>
+      <Name>nuimsign</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\nuimsign.xnb</Output>
+      <Time>2014-04-29T21:34:41+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\nuimsign_0.xml</Key>
+        <Value>2014-04-29T21:34:45+01:00</Value>
+      </Dependency>
+      <Request>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\nuimlogo_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>nuimsign.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\nuimsign_0.xml</Output>
+      <Time>2014-04-29T21:34:41+01:00</Time>
+    </Item>
+    <Item>
+      <Source>nuimlogo.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\nuimlogo_0.xnb</Output>
+      <Time>2014-04-29T21:03:40+01:00</Time>
+    </Item>
+    <Item>
+      <Source>zombie1.wav</Source>
+      <Name>zombie1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\zombie1.xnb</Output>
+      <Time>2014-04-30T16:14:01+01:00</Time>
+    </Item>
+    <Item>
+      <Source>zombie2.wav</Source>
+      <Name>zombie2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\zombie2.xnb</Output>
+      <Time>2014-04-30T16:14:01+01:00</Time>
+    </Item>
+    <Item>
+      <Source>backgroundsound.mp3</Source>
+      <Name>backgroundsound</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\backgroundsound.xnb</Output>
+      <Extra>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\backgroundsound.wma</Extra>
+      <Time>2014-04-30T16:43:09+01:00</Time>
+    </Item>
+    <Item>
+      <Source>zombie3.wav</Source>
+      <Name>zombie3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\zombie3.xnb</Output>
+      <Time>2014-04-30T18:57:18+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3DapplicationContent\</RootDirectory>
+      <LoggerRootDirectory>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\</LoggerRootDirectory>
+      <IntermediateDirectory>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3DapplicationContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>Z:\Google Drive\Semester 2\CS426 - Computer Graphics\Week 3 - Assignment 3 - XNA\XNA3Dapplication\XNA3Dapplication\XNA3Dapplication\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-04-05T22:47:44.6806641+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
